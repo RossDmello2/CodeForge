@@ -267,6 +267,16 @@ pre { font-family: var(--font-code); margin: 0; }
 }
 .btn-icon:hover { background: var(--bg-hover); color: var(--text); border-color: var(--border-2); }
 
+.btn-icon svg {
+  width: 15px;
+  height: 15px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .btn-icon-sm {
   background: transparent;
   border: none;
